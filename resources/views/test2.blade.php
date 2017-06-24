@@ -1,3 +1,6 @@
+@extends('site.laout')
+
+@section('content')
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -88,14 +91,8 @@
                     ปัจจุบัน มี 2 สาขา ที่ศรีสะเกษและบุรีรัมย์
                 </div>
 
-                <div class="links">
-                    <a href="/1">เราคือใคร</a>
-                    <a href="/3">ทีมงานเรา</a>
-                    <a href="/4">ติดต่อเรา</a>
-                    <a href="/5">แผนที่</a>
-                    <a href="/">หน้าหลัก</a>
-                </div>
             </div>
         </div>
     </body>
 </html>
+@stop

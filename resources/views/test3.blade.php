@@ -1,3 +1,7 @@
+@extends('site.laout')
+
+@section('content')
+
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -14,7 +18,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #ff0000;
+                color: #000000;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -82,14 +86,8 @@
                     เรามีทีมงานมืออาชีพ พร้อมให้คำแนะนำและตอบคำถาม ทุกท่าน
                 </div>
 
-                <div class="links">
-                    <a href="/1">เราคือใคร</a>
-                    <a href="/2">เราทำอะไร</a>
-                    <a href="/4">ติดต่อเรา</a>
-                    <a href="/5">แผนที่</a>
-                    <a href="/">หน้าหลัก</a>
-                </div>
             </div>
         </div>
     </body>
 </html>
+@stop

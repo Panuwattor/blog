@@ -1,3 +1,6 @@
+@extends('site.laout')
+
+@section('content')
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -82,14 +85,8 @@
                     สวัสดีครับ ยินดีต้อนรับ
                 </div>
 
-                <div class="links">
-                    <a href="/1">เราคือใคร</a>
-                    <a href="/2">เราทำอะไร</a>
-                    <a href="/3">ทีมงานเรา</a>
-                    <a href="/4">ติดต่อเรา</a>
-                    <a href="/5">แผนที่</a>
-                </div>
             </div>
         </div>
     </body>
 </html>
+@stop

@@ -34,3 +34,11 @@ Route::get('/4', function () {
 Route::get('/5', function () {
     return view('test5');
 });
+
+Route::get('/laout', function () {
+    return view('site.laout');
+});
+
+Route::get('/sest10', function () {
+    return view('site.sest10');
+});

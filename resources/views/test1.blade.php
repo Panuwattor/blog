@@ -1,4 +1,7 @@
-<!doctype html>
+@extends('site.laout')
+
+@section('content')
+
 <html lang="{{ config('app.locale') }}">
     <head>
         <meta charset="utf-8">
@@ -82,14 +85,8 @@
                     เราคือบริษัท TAWEECHAI
                 </div>
 
-                <div class="links">
-                    <a href="/2">เราทำอะไร</a>
-                    <a href="/3">ทีมงานเรา</a>
-                    <a href="/4">ติดต่อเรา</a>
-                    <a href="/5">แผนที่</a>
-                    <a href="/">หน้าหลัก</a>
-                </div>
             </div>
         </div>
     </body>
 </html>
+@stop

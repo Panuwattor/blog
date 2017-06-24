@@ -1,3 +1,7 @@
+@extends('site.laout')
+
+@section('content')
+
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -94,14 +98,9 @@
                 <div class="title1 m-b-md">
                     <a href=""="http://www.taweechai.com">ข้อมูลเพิ่มเติม**คลิ๊ก**</a>
                 </div>
-                <div class="links">
-                    <a href="/1">เราคือใคร</a>
-                    <a href="/2">เราทำอะไร</a>
-                    <a href="/3">ทีมงานเรา</a>
-                    <a href="/5">แผนที่</a>
-                    <a href="/">หน้าหลัก</a>
-                </div>
+
             </div>
         </div>
     </body>
 </html>
+@stop

@@ -1,3 +1,6 @@
+@extends('site.laout')
+
+@section('content')
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
     <head>
@@ -47,14 +50,14 @@
 
             .title {
                 font-size: 84px;
-                }
+            }
             .title1 {
-                    font-size: 50px;
+                font-size: 50px;
             }
 
             .links > a {
                 color: #636b6f;
-                padding: 0 50px;
+                padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
@@ -82,20 +85,17 @@
 
             <div class="content">
               <div class="title1 m-b-md">
-    บริษัท ทวีชัย เพอร์เฟค บิวเดอร์ จำกัด  เลขที่ 998/55-56 ถนนกวงเฮง ตำบลเมืองใต้ อำเภอเมือง จังหวัดศรีสะเกษ
+    บริษัท ทวีชัย เพอร์เฟค บิวเดอร์ จำกัด
+              </div>
+              <div class="title1 m-b-md">
+    เลขที่ 998/55-56 ถนนกวงเฮง ตำบลเมืองใต้ อำเภอเมือง จังหวัดศรีสะเกษ
               </div>
                 <div class="title m-b-md">
                     <a href="https://www.google.com/maps?q=15.110718,104.328687">(แผนที่)</a>
                 </div>
 
-                <div class="links">
-                    <a href="/1">เราคือใคร</a>
-                    <a href="/2">เราทำอะไร</a>
-                    <a href="/3">ทีมงานเรา</a>
-                    <a href="/4">ติดต่อเรา</a>
-                    <a href="/">หน้าหลัก</a>
-                </div>
             </div>
         </div>
     </body>
 </html>
+@stop
