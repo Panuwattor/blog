@@ -51,10 +51,13 @@
             .title {
                 font-size: 84px;
             }
+            .title1 {
+                font-size: 50px;
+            }
 
             .links > a {
                 color: #636b6f;
-                padding: 0 50px;
+                padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
                 letter-spacing: .1rem;
