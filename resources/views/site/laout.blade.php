@@ -4,9 +4,16 @@
     <meta charset="utf-8">
     <title>Taweechai</title>
     <style>
+    body{
+      background: #dddddd;
+    }
+    img{
+      height: 100px;
+      counter-increment: none;
+    }
 header{
   font-size: 60px;
-  padding: 50px;
+  padding: 20px;
   background : #ff6633;
   color: #000000
   text-decoration: none;
@@ -14,23 +21,25 @@ header{
   text-align: center;
 }
 footer{
-  padding: 50px;
+  padding: 20px;
   background : #00ff00;
   color: #000000
   text-decoration: none;
   text-align:center;
 }
-section{
+div{
   text-align: center;
 }
     </style>
   </head>
   <body>
     <header>
+    <img src="<?php echo asset('assets/img/taweechai.jpg'); ?>">
+  </header>
+    <header>
 Taweechai perfect builder
     </header>
       <section id="main">
-
         <div class="links">
           <a href="/">หน้าหลัก</a>
             <a href="/1">เราคือใคร</a>

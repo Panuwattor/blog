@@ -42,3 +42,7 @@ Route::get('/laout', function () {
 Route::get('/sest10', function () {
     return view('site.sest10');
 });
+
+Route::get('/img', function () {
+  return view('site.img');
+});

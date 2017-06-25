@@ -17,8 +17,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #000000;
+                color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
@@ -50,7 +49,7 @@
             }
 
             .title {
-                font-size: 100px;
+                font-size: 50px;
             }
 
             .links > a {
