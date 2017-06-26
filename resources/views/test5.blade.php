@@ -18,7 +18,7 @@
             html, body {
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
-                font-weight: 100;
+                font-weight: 50;
                 height: 100vh;
                 margin: 0;
             }
@@ -48,10 +48,10 @@
             }
 
             .title {
-                font-size: 50px;
+                font-size: 40px;
             }
             .title1 {
-                font-size: 50px;
+                font-size: 40px;
             }
 
             .links > a {
@@ -65,7 +65,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
         </style>
     </head>
@@ -89,10 +89,10 @@
               <div class="title1 m-b-md">
     เลขที่ 998/55-56 ถนนกวงเฮง ตำบลเมืองใต้ อำเภอเมือง จังหวัดศรีสะเกษ
               </div>
-                <div class="title m-b-md">
-                    <a href="https://www.google.com/maps?q=15.110718,104.328687">(แผนที่)</a>
-                </div>
-
+              <div>
+                  <a href="https:www.google.com/maps?q=15.110718,104.328687">
+                    <img width="1450"height="750" src="<?php echo asset('assets/img/plan.jpg');?>"</a>
+              </div>
             </div>
         </div>
     </body>

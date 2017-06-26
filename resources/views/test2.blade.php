@@ -82,6 +82,12 @@
                 </div>
             @endif
             <div class="content">
+              <div class="title m-b-md">
+                <img width="350"height="350" src="<?php echo asset('assets/img/101.jpg');?>">
+                <img width="350"height="350" src="<?php echo asset('assets/img/102.jpg');?>">
+                <img width="350"height="350" src="<?php echo asset('assets/img/103.jpg');?>">
+                <img width="350"height="350" src="<?php echo asset('assets/img/104.jpg');?>">
+              </div>
                 <div class="title m-b-md">
                     เรารับออกแบบและสร้างบ้าน
                 </div>

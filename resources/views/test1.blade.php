@@ -23,6 +23,7 @@
                 margin: 0;
             }
 
+
             .full-height {
                 height: 100vh;
             }
@@ -78,8 +79,10 @@
                     @endif
                 </div>
             @endif
-
             <div class="content">
+              <div class="title m-b-md">
+                <img width="350"height="350" src="<?php echo asset('assets/img/taweechai.jpg');?>">
+              </div>
                 <div class="title m-b-md">
                     เราคือบริษัท TAWEECHAI
                 </div>

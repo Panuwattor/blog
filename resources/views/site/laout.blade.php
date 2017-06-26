@@ -7,12 +7,8 @@
     body{
       background: #dddddd;
     }
-    img{
-      height: 100px;
-      counter-increment: none;
-    }
 header{
-  font-size: 60px;
+  font-size: 50px;
   padding: 20px;
   background : #ff6633;
   color: #000000
@@ -34,7 +30,7 @@ div{
   </head>
   <body>
     <header>
-    <img src="<?php echo asset('assets/img/taweechai.jpg'); ?>">
+    <img width="150"height="150"src="<?php echo asset('assets/img/taweechai.jpg'); ?>">
   </header>
     <header>
 Taweechai perfect builder
